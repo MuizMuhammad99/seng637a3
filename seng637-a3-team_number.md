@@ -33,6 +33,14 @@ Soumini, Muhammad, and Jauhar focused on developing new unit tests for the org.j
 
 Our group selected five test cases strategically to increase code coverage for the target classes. These test cases were designed to cover various control flow paths and ensure a more thorough examination of the code.
 
+<img width="619" alt="line_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/dd237a04-7242-4ed5-9466-c27c465e47b4">
+
+<img width="613" alt="branch_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/02acfac1-dd9b-4d5a-901a-9bfe384b28f3">
+
+
+<img width="611" alt="condition_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/cd2d4e79-3866-4543-8112-8643f63ccce3">
+
+
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 The coverage achieved for each class and method was documented in detail. Screenshots from the code coverage results were included, providing a visual representation of the achieved coverage metrics.
