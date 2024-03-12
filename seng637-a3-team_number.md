@@ -17,7 +17,7 @@ for each group. Please see each lab document for details.)
 
 In this lab report, we document our work on code coverage, adequacy criteria, and test case correlation for Assignment #3 in the SENG 637 course. The focus of the assignment is on white-box testing using JUnit and code coverage tools. Our group worked collaboratively on various aspects of the assignment. Our tasks involved manual data-flow coverage calculations, developing new unit tests, and evaluating the coverage achieved.
 
-The assignment is all about getting better at automated unit testing, especially using a tool called JUnit. We're focusing on a type of testing called Black Box Testing. We're working together as a group to create test code based on specific unit requirements. Our main goal is to make automated test code using JUnit and another testing tool called XUnit. We're specifically looking at a Java system called JFreeChart, which is used for making charts.
+The assignment is all about getting better at automated unit testing, especially using a tool called JUnit. We're focusing on a type of testing called White Box Testing. We're working together as a group to create test code based on specific unit requirements. Our main goal is to make automated test code using JUnit and another testing tool called XUnit. We're specifically looking at a Java system called JFreeChart, which is used for making charts.
 
 We followed the given instructions to set up our testing environment. We're also learning about something called mocking objects to help us create tests for the methods we need to check. We're using Javadoc API specifications to understand how the methods should behave, and then we're making a plan for our tests based on that.
 
