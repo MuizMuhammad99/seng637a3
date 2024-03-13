@@ -70,7 +70,27 @@ The coverage achieved for each class and method was documented in detail. Screen
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Our group analyzed the coverage tools used, highlighting their pros and cons. Factors such as integration with IDE, user-friendliness, reported metrics, and potential issues like crashes were discussed.
+Our group analyzed the coverage tools used, highlighting their pros and cons. Factors such as integration with IDE, user-friendliness, reported metrics, and potential issues like crashes were discussed. Listed below are the Pros and Cons.
+
+Pros of EclEmma:
+Easy to Use: EclEmma is user-friendly, making it simple for developers to work with.
+Works with Eclipse: It smoothly fits into Eclipse, a common Java development tool, offering a familiar setup.
+Shows Testing Coverage: EclEmma gives a clear picture of how much of your code is tested, helping you spot areas that need more attention.
+Visual Feedback: It provides a visual map right in Eclipse, making it easy to see which parts of your code are well-tested and which ones need more testing.
+Free to Use: Being open source, EclEmma is free, encouraging collaboration among developers.
+Pairs with JUnit: It easily connects with JUnit, a popular testing framework, making it handy for developers using JUnit.
+
+Cons of EclEmma:
+
+Just for Java: EclEmma focuses on Java code. If you're working with multiple languages, you might need other tools.
+
+Needs Eclipse: It's an Eclipse plugin, so if you're not using Eclipse, it might not be as useful.
+
+Can Slow Things Down: In big projects, using EclEmma might make your testing a bit slower.
+
+Not Big on Data Flow: While it's great for overall code flow, EclEmma doesn't dive too deep into data flow coverage.
+
+Compatibility Hiccups: Depending on your Eclipse version and other plugins, you might run into compatibility problems.
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
