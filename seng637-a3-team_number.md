@@ -129,6 +129,22 @@ Our group analyzed the coverage tools used, highlighting their pros and cons. Fa
 
 A comparison was drawn between requirements-based test generation and coverage-based test generation. The advantages and disadvantages of each approach were discussed, providing insights into their applicability in different scenarios.
 
+**Advantages of Coverage-Based Test Generation:**
+
+Thorough Examination: Ensures a comprehensive examination of the code by aiming to cover different parts, increasing the likelihood of identifying potential issues.
+Objective Measurement: Provides an objective metric for testing progress, helping teams understand how much of the code has been tested.
+Effective Prioritization: Helps prioritize testing efforts by focusing on critical parts of the code, ensuring that essential functionalities are thoroughly tested.
+Identifying Unreachable Code: Reveals code that is never executed during testing, helping identify unnecessary or unreachable portions of the program.
+Increased Confidence: Achieving high code coverage instills confidence that a significant portion of the code has been exercised, reducing the likelihood of hidden defects.
+
+Disadvantages of Coverage-Based Test Generation:
+
+Not Necessarily Thorough Testing: High code coverage does not guarantee that all possible scenarios and edge cases are tested, potentially leaving some issues undiscovered.
+Overlooking Logical Errors: Focusing solely on code coverage might miss logical errors that are not apparent through structural analysis alone.
+Time-Consuming: Achieving high coverage levels can be time-consuming, and the pursuit of coverage metrics might overshadow the importance of effective testing.
+Dependency on Implementation: The approach heavily relies on the implementation details, and if these details change, the tests might need frequent updates.
+False Sense of Security: A high coverage percentage may provide a false sense of security, as it doesn't guarantee the absence of functional or integration issues.
+
 # 8 A discussion on how the team work/effort was divided and managed
 
 The report includes a discussion on how the team work and effort were divided among the group members. The collaborative coding efforts were organized into subgroups, and the finalization of the report was achieved through a collective effort.
