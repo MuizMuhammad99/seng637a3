@@ -129,6 +129,20 @@ Our group analyzed the coverage tools used, highlighting their pros and cons. Fa
 
 A comparison was drawn between requirements-based test generation and coverage-based test generation. The advantages and disadvantages of each approach were discussed, providing insights into their applicability in different scenarios.
 
+**Advantages of Requirements-Based Test Generation:**
+
+* **Clear Focus:** It ensures testing aligns with what the software is supposed to do, keeping the focus on meeting specified requirements.
+* **Thorough Coverage:** By deriving tests from requirements, it helps achieve comprehensive coverage, addressing various scenarios outlined in the specifications.
+* **Traceability:** It creates a clear trace between tests and specific requirements, making it easier to validate if all aspects are tested.
+* **Early Detection of Issues:** Testing against requirements can catch issues early in the development process, preventing them from becoming bigger problems later.
+
+**Disadvantages of Requirements-Based Test Generation:**
+
+* **Assumes Correct Requirements:** If the initial requirements are incorrect or incomplete, the generated tests might not cover actual usage scenarios, leading to gaps in testing.
+* **Rigidity:** This approach might miss testing scenarios that are not explicitly mentioned in the requirements, potentially leaving out crucial aspects.
+* **Limited Creativity:** It relies heavily on documented requirements, limiting the opportunity for testers to apply creative, exploratory testing methods.
+* **Maintenance Challenges:** If requirements change frequently, maintaining and updating the tests to match the evolving specifications can be time-consuming and challenging.
+
 **Advantages of Coverage-Based Test Generation:**
 
   * **Thorough Examination:** Ensures a comprehensive examination of the code by aiming to cover different parts, increasing the likelihood of identifying potential issues.
