@@ -89,15 +89,20 @@ The coverage achieved for each class and method was documented in detail. Screen
   * Code Coverage after New Testcases:
     
     * Statement coverage / Line coverage:
-      
+
+  ![du_line_after](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/f1a6b449-b1ad-4a6e-bba1-5235a666bab8)
+
  
     * Branch coverage:
       
-  
+  ![du_branch_after](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/47ed1121-eb62-4f3c-90f9-dc7abd3f3282)
+
   
     * Condition coverage / Method coverage:
       
-  
+  ![du_method_after](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/c3e7ec37-c443-4d3e-821c-6d30abd3107b)
+
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
