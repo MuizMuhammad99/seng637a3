@@ -155,4 +155,14 @@ Our group faced challenges related to the clarification of assignment instructio
 
 # 10 Comments/feedback on the lab itself
 
+What we...
+
+- **Liked:** The structure the fact that the lab built upon the previous version, making it easy to set everything up.
+- **Disliked:** We are not sure if intended but some of the jar files were missing and needed to be uploaded from a2 artifacts. it wouldve been much easier to just have them in the new a3 artifacts.
+- **Found Interesting:** It was interesting seeing our code get covered in three different ways. At first, it looks all the same but upon closer inspection, the code coverage shows different statistics.
+- **Found Confusing:** It was quite confusing understanding the three different coverages in EclEmma at first. but with the slides professor had given, this confusion was easily cleared.
+- **Found Challenging:** Some of the assignment methods had logic that could not be accessed. It was confusing for us to even attempt to create tests for this part. An example is "for (int i2 = 0; i2 > data.getItemCount(); i2++)" which means that if this loop is to run, it will create infinite loop.
+- **Found Motivating:** The hands-on nature of the lab, especially the practical application of automated unit testing using JUnit and XUnit frameworks, served as a motivating factor. The exposure to real-world scenarios and the opportunity to refine our skills in testing methodologies were encouraging aspects of the lab.
+
+
 There are suggestions for providing more support for learning and using different Integrated Development Environments (IDEs) to enhance the overall learning experience.
