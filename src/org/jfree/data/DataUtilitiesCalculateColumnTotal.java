@@ -119,4 +119,6 @@ public class DataUtilitiesCalculateColumnTotal {
         assertEquals(2.0 + 3.0 + 4.0, result, .000000001d);
     }
 
+    
+    
 }

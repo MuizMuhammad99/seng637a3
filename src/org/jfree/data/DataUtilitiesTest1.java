@@ -166,6 +166,45 @@ public class DataUtilitiesTest1 {
 	    assertEquals(Double.POSITIVE_INFINITY, result, .000000001d);
 	}
 	
+	@Test
+	public void calculateRowTotalForNegativeColumnCount() {
+	    mockingContext.checking(new Expectations() {{
+	        oneOf(values).getColumnCount();
+	        will(returnValue(-1)); // Assuming column count is negative
+	    }});
+
+	    // Exercise
+	    double result = DataUtilities.calculateRowTotal(values, 0, new int[]{});
+
+	    // Verify
+	    assertEquals(0.0, result, .000000001d); // It should return 0.0 for negative column count
+	}
+	
+	@Test
+	public void calculateRowTotalWithNullAndNonNullValues() {
+	    final int row = 0;
+	    final int columnCount = 3; // Assuming 3 columns for this test
+
+	    mockingContext.checking(new Expectations() {{
+	        oneOf(values).getColumnCount();
+	        will(returnValue(columnCount));
+	        oneOf(values).getValue(row, 0);
+	        will(returnValue(2.0)); // Non-null value
+	        oneOf(values).getValue(row, 1);
+	        will(returnValue(null)); // Null value
+	        oneOf(values).getValue(row, 2);
+	        will(returnValue(5.0)); // Non-null value
+	    }});
+
+	    // Exercise
+	    double result = DataUtilities.calculateRowTotal(values, row);
+
+	    // Verify
+	    assertEquals(7.0, result, .000000001d);
+	}
+	
+	
+	
 	@After
 	public void tearDown() throws Exception {
 		mockingContext.assertIsSatisfied();

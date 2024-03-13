@@ -200,6 +200,7 @@ public class DataUtilitiesCumulativePercentageTest {
         assertEquals("The percentage for 1/2 value should be 0.5", 0.5, result.getValue(0).doubleValue());
         assertEquals("The percentage for 2/2 value should be 1.0", 1.0, result.getValue(1).doubleValue());
     }
+    
 
     
     @After

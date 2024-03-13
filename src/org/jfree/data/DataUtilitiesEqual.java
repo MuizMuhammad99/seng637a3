@@ -54,5 +54,26 @@ public class DataUtilitiesEqual {
         double[][] b = {{1.0, 2.0, 3.0, 4.0, 5.0}, {6.0, 7.0, 8.0, 9.0, Double.NEGATIVE_INFINITY}};
         assertTrue(DataUtilities.equal(a, b));
     }
+	
+	@Test
+	public void equalArraysAIsNull() {
+	    double[][] a = null;
+	    double[][] b = {{1.0, 2.0, 3.0, 4.0, 5.0}, {6.0, 7.0, 8.0, 9.0, 10.0}};
+	    assertFalse(DataUtilities.equal(a, b));
+	}
+	
+	@Test
+	public void equalArraysWithBNull() {
+	    double[][] a = {{1.0, 2.0, 3.0, 4.0, 5.0}, {6.0, 7.0, 8.0, 9.0, 10.0}};
+	    double[][] b = null;
+	    assertFalse(DataUtilities.equal(a, b));
+	}
+	
+	@Test
+	public void equalArraysWithDifferentLengths() {
+	    double[][] a = {{1.0, 2.0, 3.0, 4.0, 5.0}, {6.0, 7.0, 8.0, 9.0, 10.0}};
+	    double[][] b = {{1.0, 2.0, 3.0, 4.0, 5.0}};
+	    assertFalse(DataUtilities.equal(a, b));
+	}
 
 }
