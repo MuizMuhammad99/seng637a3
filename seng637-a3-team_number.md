@@ -91,6 +91,19 @@ For the Range class:
       
     <img width="605" alt="rt12" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/383626d3-1055-4584-91b5-bd5f51f60a6b">
 
+For the DataUtilities class:
+* | Metrics | Coverage Before New Testcases |
+  | ------- | ------ |
+  | Statement / Line | 45.8% |
+  | Branch | 32.8% |
+  | Condition / Method | 50.0% |
+
+* | Metrics | Coverage After New Testcases |
+  | ------- | ------ |
+  | Statement / Line | 88.5% |
+  | Branch | 75.0% |
+  | Condition / Method | 90.0% |
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
