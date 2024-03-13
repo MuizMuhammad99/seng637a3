@@ -38,20 +38,34 @@ Our group selected five test cases strategically to increase code coverage for t
 
 The coverage achieved for each class and method was documented in detail. Screenshots from the code coverage results were included, providing a visual representation of the achieved coverage metrics.
 * Range class:
+  
   * Code Coverage before New Testcases:
+    
     * Statement coverage / Line coverage:
-      <img width="619" alt="line_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/41daab92-57ac-40a3-8319-7ab495a91545">
+      
+  <img width="619" alt="line_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/41daab92-57ac-40a3-8319-7ab495a91545">
+  
     * Branch coverage:
-     <img width="613" alt="branch_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/1fc95c2f-1dba-4b3b-a695-167b98d0b828">
+      
+  <img width="613" alt="branch_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/1fc95c2f-1dba-4b3b-a695-167b98d0b828">
+  
     * Condition coverage / Method coverage:
-      <img width="611" alt="condition_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/2a5763fa-da49-4919-8163-541572cf8eba">
+      
+  <img width="611" alt="condition_before" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/2a5763fa-da49-4919-8163-541572cf8eba">
+  
   * Code Coverage after New Testcases:
+    
     * Statement coverage / Line coverage:
-      <img width="639" alt="line_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/90c2cbfb-4798-4c85-9469-9d20bc668795">
+      
+  <img width="639" alt="line_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/90c2cbfb-4798-4c85-9469-9d20bc668795">
+  
     * Branch coverage:
-      <img width="633" alt="branch_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/6923adff-05b9-4049-9a2e-e182714a93d2">
+      
+  <img width="633" alt="branch_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/6923adff-05b9-4049-9a2e-e182714a93d2">
+  
     * Condition coverage / Method coverage:
-      <img width="639" alt="condition_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/0d05e998-2e8f-4e3c-b289-8b7642fee7f2">
+      
+  <img width="639" alt="condition_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/0d05e998-2e8f-4e3c-b289-8b7642fee7f2">
 
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
