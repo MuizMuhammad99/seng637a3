@@ -87,7 +87,7 @@ For the Range class:
     
     <img width="617" alt="rt6" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/edaf4d90-bdc0-4705-bc0a-8d50b4723803">
 
-* Test cases for the shiftWithNoZeroCrossing(double, double):
+* Test cases for the shiftWithNoZeroCrossing(double, double) method:
       
     <img width="605" alt="rt12" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/383626d3-1055-4584-91b5-bd5f51f60a6b">
 
@@ -103,6 +103,19 @@ For the DataUtilities class:
   | Statement / Line | 88.5% |
   | Branch | 75.0% |
   | Condition / Method | 90.0% |
+
+* Test cases for the
+  
+    ![du_clone](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/4e52d264-d61d-4747-9f78-5576dfdedbc1)
+
+* Test cases for the calculateRowTotal() method:
+
+    ![du_test2](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/d39ffd07-52ed-4a86-b23d-ec4272ee7896)
+  
+* Test cases for the calculateColumnTotal() method:
+  
+    ![du_col_tot](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/d6719933-41dd-4a31-9e46-6969bbcb8d25)
+
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
