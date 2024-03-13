@@ -71,7 +71,25 @@ For the Range.getCentralValue() method, the test cases are shown below:
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Our group selected five test cases strategically to increase code coverage for the target classes. These test cases were designed to cover various control flow paths and ensure a more thorough examination of the code.
+For the Range class:
+* | Metrics | Coverage Before New Testcases |
+  | ------- | ------ |
+  | Statement / Line | 25.2% |
+  | Branch | 20.7% |
+  | Condition / Method | 30.4% |
+
+* | Metrics | Coverage After New Testcases |
+  | ------- | ------ |
+  | Statement / Line | 87.4% |
+  | Branch | 84.1% |
+  | Condition / Method | 100% |
+* Test cases for the getCentralValue() method helped increase the coverage percent:
+    
+    <img width="617" alt="rt6" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/edaf4d90-bdc0-4705-bc0a-8d50b4723803">
+
+* Test cases for the shiftWithNoZeroCrossing(double, double):
+      
+    <img width="605" alt="rt12" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/383626d3-1055-4584-91b5-bd5f51f60a6b">
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
