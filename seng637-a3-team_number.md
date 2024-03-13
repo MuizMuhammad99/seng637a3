@@ -66,7 +66,38 @@ The coverage achieved for each class and method was documented in detail. Screen
     * Condition coverage / Method coverage:
       
   <img width="639" alt="condition_after" src="https://github.com/MuizMuhammad99/seng637a3/assets/126427676/0d05e998-2e8f-4e3c-b289-8b7642fee7f2">
+  
+* DataUtilities class:
+  
+  * Code Coverage before New Testcases:
+    
+    * Statement coverage / Line coverage:
+      
+  ![du_line_before](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/8d9d1d58-ad75-4aaa-9c18-4e57ff48a6ad)
 
+  
+    * Branch coverage:
+      
+  ![du_branch_before](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/b2be6719-a4ba-43a0-9413-a12e055668f8)
+
+  
+    * Condition coverage / Method coverage:
+      
+  ![du_method_before](https://github.com/MuizMuhammad99/seng637a3/assets/126427676/0d465bd7-daa5-46d1-930d-3608afd9629c)
+
+  
+  * Code Coverage after New Testcases:
+    
+    * Statement coverage / Line coverage:
+      
+ 
+    * Branch coverage:
+      
+  
+  
+    * Condition coverage / Method coverage:
+      
+  
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
