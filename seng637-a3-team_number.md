@@ -2,13 +2,13 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group: 3      |     |
-| -------------- | --- |
-| Aemen |     |
-| Jauhar |     |
-| Muhammad |     |
-| Shaun |     |
-| Soumini |     |
+| Group: 3      |
+| -------------- |
+| Aemen |
+| Jauhar |
+| Muhammad |
+| Shaun |
+| Soumini |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
@@ -162,11 +162,15 @@ A comparison was drawn between requirements-based test generation and coverage-b
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-The report includes a discussion on how the team work and effort were divided among the group members. The collaborative coding efforts were organized into subgroups, and the finalization of the report was achieved through a collective effort.
+The team was organized into three groups for collaborative coding efforts: 1) Aemen & Shaun, 2) Muiz and Fathima, and 3) Soumini. The division of work within the groups is as follows:
+  * Aemen and Shaun collaborated on Measure Control Flow Coverage and Measure Data Flow Coverage.
+  * Muiz and Fathima worked on Test Suite development for DataUtilities class.
+  * Soumini worked on the Test Suite development for Range class.
+    
+Additionally, the report was a collective effort. The team convened over a virtual call to finalize and complete it collaboratively.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
-
-Our group faced challenges related to the clarification of assignment instructions and the use of mocking objects. The report discusses how these challenges were overcome through team collaboration and highlights the lessons learned in the process.
+  * One of the challenges we faced was getting used to using code coverage tools. It was harder than expected to match our test cases with the coverage goals needed. We had to rethink and change our testing methods several times. We came to understand that beyond a certain stage, modifying the code did not impact the coverage percentage. 
 
 # 10 Comments/feedback on the lab itself
 
